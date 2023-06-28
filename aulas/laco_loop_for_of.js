@@ -12,21 +12,10 @@
 // 4.FOR... IN
 // 5.FOR... OF
 
-// for in é bom para interamento de objetos e arrays
-
-const pessoa = {
-    nome: "Clecio", //nome: key, Clecio: value
-    idade: 21
-}
-
-// chave vem de key-value
-for (let chave in pessoa) {
-    console.log(chave)
-}
+// for of é uma forma mais simples de trabalhar com os arrays
 
 const cores = ["vermelho", "azul", "verde"]
 
-// indice corresponde ao indices do array
-for (let indice in cores) {
-    console.log(indice, cores[indice])
+for (let cor of cores) {
+    console.log(cor)
 }
