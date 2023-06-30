@@ -1,4 +1,5 @@
 // Funcões de fábrica
+// Cadastrar vários objetos com functions
 
 function criarCelular(marcaCelular, tamanhoTela, capacidadeBateria) {
     return {
