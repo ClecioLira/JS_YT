@@ -6,3 +6,13 @@ const PC = {
         console.log("Ligando...")
     }
 }
+
+// Cria um clone do objeto e adiciona novas propriedades sem alterar o objeto original
+const novoObjeto = Object.assign({
+    gabitene: 'Fortrek'
+}, PC)
+console.log(novoObjeto)
+
+// spread
+const objeto = {... PC}
+console.log(objeto)
