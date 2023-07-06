@@ -42,12 +42,23 @@ console.log(numeros.includes(0))
 
 // Esvaziar um array
 // Metodo 1
+//numeros.length = 0
+// Metodo 2
+//numeros.splice(0, numeros.length)
 
 
-
-// Dividir elementos
-// Dividir arrays
 // Combinar arrays
+const primeiro = [1, 2, 3]
+const segundo = [4, 5, 6]
+const juntar = primeiro.concat(segundo)
+console.log(juntar)
+
+
+// Dividir arrays
+//                         Indice
+const divdir = juntar.slice(0, 3)
+console.log(divdir)
+
 
 
 console.log(numeros)
