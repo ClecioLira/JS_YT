@@ -28,10 +28,21 @@ console.log(achar)
 
 
 // Remover elementos
+//Final
+numeros.pop()
+// Inicio
+numeros.shift()
+// Meio
+numeros.splice(2, 1)
 
 
 // Verificar se existe
 console.log(numeros.includes(0))
+
+
+// Esvaziar um array
+// Metodo 1
+
 
 
 // Dividir elementos
