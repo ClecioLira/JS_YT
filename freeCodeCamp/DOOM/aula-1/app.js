@@ -21,12 +21,26 @@
 // console.log(container)
 
 // Acessar prioridades do CSS em JS
-const title = document.querySelector('#main-heading')
-title.style.color = 'red'
+//const title = document.querySelector('#main-heading')
+//title.style.color = 'red'
 
-const listItems = document.querySelectorAll('.list-items')
-for (i = 0; i < listItems.length; i++) {
-    listItems[i].style.fontSize = '25px'
-}
+// const listItems = document.querySelectorAll('.list-items')
+// for (i = 0; i < listItems.length; i++) {
+//     listItems[i].style.fontSize = '2rem'
+// }
 
-// Criar elementos
+// // Criar elementos
+// const ul = document.querySelector('ul')
+// const li = document.createElement('li')
+
+// // Adicionando elemento
+// ul.append(li)
+
+// // modificando o texto
+// li.innerText = 'X-men'
+
+// // modificando os atributos e classes
+// li.classList.add('list-items')
+
+// // Remover elementos
+// li.remove()
