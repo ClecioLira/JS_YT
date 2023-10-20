@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+div {
+    border: 5px solid black;
+    width: 150px;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+li {
+    border: 3px solid black;
+    list-style-type: none;
+}
