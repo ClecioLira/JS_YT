@@ -1,0 +1,37 @@
+body {
+    font-size: 1.5rem;
+}
+
+.columns {
+    /* column-count: 4; /*adiciona os itens em colunas de acordo com a quantidade solicitada
+
+    column-width: 250px; */
+    /*ShortHand*/
+    columns: 4 250px;
+    column-rule: 1px solid #333; /*Borda de separação entre as colunas*/
+    column-gap: 3rem; /*Distancia entre as colunas flexivelmente*/
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2 {
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 3rem;
+    break-inside: avoid; /*Faz a quebra da div corretamente sem deixar as partes separados*/
+}
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    column-span: all; /*Deixa a seção no meio das colunas e corta todas elas ao meio*/
+}
+
+.no-wrap {
+    white-space: nowrap; /*Seleciona para aquela parte do texto quebrar a linha sem se separar*/
+}
