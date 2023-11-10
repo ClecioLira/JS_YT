@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto&display=swap');
+
+/*RESET*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea {
+    font: inherit;
+}
+
+/*VARIAVEIS*/
+:root {
+    /*FONT*/
+    --FF: 'Roboto', sans-serif;
+    --FF-HEADINGS: 'Fugaz One', sans-serif;
+    --FS: clamp(1rem, 2.2vh, 1.5rem);
+
+    /*COLORS*/
+    --BGCOLOR: orange;
+    --BGCOLOR-FADE: rgb(252,220,160);
+    --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
+    --BODY-BGCOLOR: #fff;
+    --FONT-COLOR: #000;
+}
+
+/*CLASSES UTILIZAVEIS*/
+.offscreen {
+    
+}
