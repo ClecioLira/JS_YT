@@ -22,3 +22,15 @@
 // incrementLapsCompleted()
 // incrementLapsCompleted()
 // incrementLapsCompleted()
+
+
+// let username = 'Clécio'
+// let message = 'You have tree new notifications';
+// let messageToUser = `${username}, ${message}!`;
+// console.log(messageToUser);
+
+
+// let myName = 'Clécio Lira';
+// let greeting = 'Hi, my name is';
+// let myGreeting = `${greeting} ${myName}`;
+// console.log(myGreeting);
