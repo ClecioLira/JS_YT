@@ -1,24 +1,35 @@
-// let age = 22;
-// if (age < 21) console.log('Você não pode entrar');
-// else console.log('Pode entrar');
 
 //Seletores
 let messageEl = document.querySelector('#message-el');
 let cardEl = document.querySelector('#card-el');
 let sumEl = document.querySelector('#sum-el');
+let playerEl = document.getElementById('player-el');
+
 //Variaveis de carta e soma das cartas
 let firstCard = getRandomCard()
 let secondCard = getRandomCard()
 let thirdCard = getRandomCard()
 let cards = [firstCard, secondCard, thirdCard]
 let sum = cards[0] + cards[1];
+let hasBlackJack = false;
+
 //Textos
 let message = '';
 let textoCard = 'Cards: ' + cards[0] + " " + cards[1];
 let textoSum = 'Sum: ' + sum
 
+let player = {
+    name: 'Clécio',
+    chips: 145
+}
+playerEl.textContent = player.name + ": R$" + player.chips;
+playerEl.style.textAlign = 'center';
+
 function getRandomCard() {
-    return Math.floor(Math.random() * 13 + 1);
+    let num = Math.floor(Math.random() * 13 + 1);
+    if (num > 10) return 10;
+    if (num === 1) return 11;
+    return num;
 }
 
 function startGame() {
@@ -28,6 +39,7 @@ function startGame() {
     }
     if (sum === 21) {
         message = 'Parabéns, você ganhou!';
+        hasBlackJack = true;
     }
     if (sum >= 22) {
         message = 'Poxa, voce perdeu!';
