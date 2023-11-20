@@ -20,6 +20,23 @@
 
 // console.log('Maiores paises:');
 // let largeCountries = ['China', 'India', 'USA', 'Indonesia', 'Pakistan']
+// largeCountries.pop() //REMOVE NO FINAL DO ARRAY
+// largeCountries.push('Brazil') //ADICIONA NO FINAL DO ARRAY
+// largeCountries.shift() //REMOVE NO COMEÇO DO ARRAY
+// largeCountries.unshift('Canada') //ADICIONA NO COMEÇO DO ARRAY
 // for (let i = 0; i < largeCountries.length; i++) {
 //     console.log('- ' + largeCountries[i]);
 // }
+
+
+// let day = 15;
+// let weekday = 'Friday';
+// if (day === 13 && weekday === 'Friday') console.log('HORROR');
+
+
+// let hands = ['pedra', 'papel', 'tesoura']
+// function getHand() {
+//     let randomIndex = Math.floor(Math.random() * 3);
+//     return hands[randomIndex];
+// }
+// console.log(getHand());
