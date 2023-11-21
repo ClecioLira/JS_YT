@@ -1,0 +1,9 @@
+{
+    "manisfest_version": 3,
+    "version": "1.1",
+    "name": "Leads Tracker",
+    "action": {
+        "defeault_popup": "index.html",
+        "defeault_icon": "icon.png"
+    }
+}
