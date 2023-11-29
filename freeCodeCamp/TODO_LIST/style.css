@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+.newItemEntry {
+    background-color: white;
+    color: black;
+    width: 350px;
+    margin: 15px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.newItemEntry label {
+    font-size: 32px;
+}
+.newItemEntry input {
+    margin-top: 15px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 250px;
+}
+button {
+    padding: 10px 12px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.addItem .button{
+    background-color: green;
+}
+.listContainer {
+    background-color: white;
+    color: black;
+    width: 350px;
+    margin: 15px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.listTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
