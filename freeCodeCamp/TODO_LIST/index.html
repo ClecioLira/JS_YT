@@ -9,21 +9,19 @@
 <body>
     <main>
         <section class="newItemEntry">
-            <form id="itemEntryForm">
-                <label for="newItem">Enter a new to do item</label>
-                <br>
-                <input id="newItem" type="text" size="40" autocomplete="off" placeholder="Add item" tabindex="0">
-                <button id="addItem" class="button" title="Add New Item" aria-label="Add new item to List" tabindex="0">+</button>
-            </form>
+                <h1>Lista de Tarefas</h1>
+                <input id="newItem" type="text" size="40" autocomplete="off" placeholder="Digitar tarefa" tabindex="0">
+                <button id="addItem" class="button" title="Digitar tarefa" aria-label="Digite sua nova tarefa" tabindex="0" type="button">+</button>
         </section>
 
         <section class="listContainer">
             <div class="listTitle">
-                <h1>To Do List</h1>
-                <button id="clearItems" class="button" title="Clear the list" aria-label="Revmo all items from the list" tabindex="0">Clear</button>
+                <h2>Tarefas</h2>
+                <button id="clearItems" class="button" title="Limpar toda lista" aria-label="Limpar todas as tarefas da lista" tabindex="0">Limpar lista</button>
             </div>
-            <div id="listItems"></div>
+            <ul id="listItems"></ul>
         </section>
     </main>
 </body>
+    <script src="script.js"></script>
 </html>
