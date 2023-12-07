@@ -12206,4 +12206,77 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box__icon {
+  width: 2rem;
+  stroke: #9926f0;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box__info--subtitle {
+  font-size: 0.8rem;
+  color: #dee2e6;
+  text-decoration: none;
+}
+@media (min-width: 576px) {
+  .contact-box__info--subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+
+.campany-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.campany-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.campany-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.campany-list li a:hover {
+  color: #9926f0;
+}
+
 /*# sourceMappingURL=style.css.map */
